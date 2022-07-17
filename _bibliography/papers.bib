@@ -1,72 +1,30 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
+@inproceedings{Nanni2022,
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+  author="Nanni, Luca",
+  editor="Piroddi, Luigi",
+  title="Computational Inference of DNA Folding Principles: From Data Management to Machine Learning",
+  bookTitle="Special Topics in Information Technology",
+  year="2022",
+  publisher="Springer International Publishing",
+  address="Cham",
+  pages="79--88",
+  abstract="DNA is the molecular basis of life and would total about three meters if linearly untangled. To fit in the cell nucleus at the micrometer scale, DNA has, therefore, to fold itself into several layers of hierarchical structures, which are thought to be associated with functional compartmentalization of genomic features like genes and their regulatory elements. For this reason, understanding the mechanisms of genome folding is a major biological research problem. Studying chromatin conformation requires high computational resources and complex data analyses pipelines. In this chapter, we first present the PyGMQL software for interactive and scalable data exploration for genomic data. PyGMQL allows the user to inspect genomic datasets and design complex analysis pipelines. The software presents itself as a easy-to-use Python library and interacts seamlessly with other data analysis packages. We then use the software for the study of chromatin conformation data. We focus on the epigenetic determinants of Topologically Associating Domains (TADs), which are region of high self chromatin interaction. The results of this study highlight the existence of a ``grammar of genome folding'' which dictates the formation of TADs and boundaries, which is based on the CTCF insulator protein. Finally we focus on the relationship between chromatin conformation and gene expression, designing a graph representation learning model for the prediction of gene co-expression from gene topological features obtained from chromatin conformation data. We demonstrate a correlation between chromatin topology and co-expression, shedding a new light on this debated topic and providing a novel computational framework for the study of co-expression networks.",
+  isbn="978-3-030-85918-3",
+  doi="10.1007/978-3-030-85918-3_7",
+  html="https://doi.org/10.1007/978-3-030-85918-3_7"
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@inproceedings{10.1145/3473258.3473290,
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+  author = {Rouhi, Amirreza and Nanni, Luca and Canakoglu, Arif and Pinoli, Pietro and Ceri, Stefano},
+  title = {Ensemble Feature Selection for Single Cell Chromatin Conformation Analysis},
+  year = {2021},
+  isbn = {9781450389655},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  html = {https://doi.org/10.1145/3473258.3473290},
+  abstract = { High-throughput Chromosome Conformation Capture (HI-C) highlights pairwise interactions in the genome; they are used for progressively understanding relevant genetic and epigenetic properties, including the discovery of chromosome compartments and topological associating domains. Single-cell Hi-C (scHi-C) extends the single-cell approach, initially focused on transcriptomics, to the Hi-C protocol; it allows measuring 3D chromatin conformation in individual cells. Large scHi-C datasets present significant data analysis challenges, due to redundancy, noise, and nonlinearity. In this work, we propose a pipeline for analysing scHi-C datasets; along the pipeline, we use new/improved methods. We initially use directionality indexes to reduce data sparsity, then we use three distinct methods for feature selection, followed by ensemble methods to merge them. We demonstrate the effectiveness of this pipeline by comparing the accuracy of classifiers which are built by using just the top-quality features selected by our method, and show that a small number of features provides good classification performance in two different contexts, the prediction of cell cycle stages and the identification of cell lines. We use a deep learning method for cell classification. The genomic locations selected by our ensemble method provide high general predictive power in both tasks, and outperform features selected by single methods. This demonstrates that multiple feature scoring strategies are necessary to clearly highlight differential genomic regions between cell classes.},
+  booktitle = {2021 13th International Conference on Bioinformatics and Biomedical Technology},
+  pages = {209–216},
+  numpages = {8}
 }
