@@ -230,6 +230,8 @@ scholar:
 
   query: "@*"
 
+  group_by: category, year
+  group_order: ascending, descending
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
