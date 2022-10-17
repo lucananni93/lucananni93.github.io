@@ -1,8 +1,8 @@
 ---
 layout: page
-title: software
+title: Software
 permalink: /software/
-description: Software that I have built
+description: Software that I have built or contributed to
 nav: true
 ---
 
