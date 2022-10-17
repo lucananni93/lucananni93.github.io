@@ -43,7 +43,8 @@
   publisher={Nature Publishing Group},
   abstract = {Chromatin compartmentalization reflects biological activity. However, inference of chromatin sub-compartments and compartment domains from chromosome conformation capture (Hi-C) experiments is limited by data resolution. As a result, these have been characterized only in a few cell types and systematic comparisons across multiple tissues and conditions are missing. Here, we present Calder, an algorithmic approach that enables the identification of multi-scale sub-compartments at variable data resolution. Calder allows to infer and compare chromatin sub-compartments and compartment domains in >100 cell lines. Our results reveal sub-compartments enriched for poised chromatin states and undergoing spatial repositioning during lineage differentiation and oncogenic transformation.},
   html = {https://doi.org/10.1038/s41467-021-22666-3},
-  category="1. Computational biology"
+  category="1. Computational biology",
+  code="https://github.com/CSOgroup/CALDER2"
 }
 
 @article{canakoglu2021federated,
@@ -58,7 +59,8 @@
   publisher={Oxford University Press},
   abstract = {Motivation. With the spreading of biological and clinical uses of next-generation sequencing (NGS) data, many laboratories and health organizations are facing the need of sharing NGS data resources and easily accessing and processing comprehensively shared genomic data; in most cases, primary and secondary data management of NGS data is done at sequencing stations, and sharing applies to processed data. Based on the previous single-instance GMQL system architecture, here we review the model, language and architectural extensions that make the GMQL centralized system innovatively open to federated computing. Results. A well-designed extension of a centralized system architecture to support federated data sharing and query processing. Data is federated thanks to simple data sharing instructions. Queries are assigned to execution nodes; they are translated into an intermediate representation, whose computation drives data and processing distributions. The approach allows writing federated applications according to classical styles: centralized, distributed or externalized. Availability. The federated genomic data management system is freely available for non-commercial use as an open source project at http://www.bioinformatics.deib.polimi.it/FederatedGMQLsystem/},
   html = {https://doi.org/10.1093/bib/bbaa091},
-  category="2. Bioinformatics"
+  category="2. Bioinformatics",
+  website="http://www.bioinformatics.deib.polimi.it/genomic_computing/FederatedGMQLsystem/index.html"
 }
 
 @article{cristovao2020investigating,
@@ -70,7 +72,8 @@
   publisher={IEEE},
   abstract = {Breast Cancer comprises multiple subtypes implicated in prognosis. Existing stratification methods rely on the expression quantification of small gene sets. Next Generation Sequencing promises large amounts of omic data in the next years. In this scenario, we explore the potential of machine learning and, particularly, deep learning for breast cancer subtyping. Due to the paucity of publicly available data, we leverage on pan-cancer and non-cancer data to design semi-supervised settings. We make use of multi-omic data, including microRNA expressions and copy number alterations, and we provide an in-depth investigation of several supervised and semi-supervised architectures. Obtained accuracy results show simpler models to perform at least as well as the deep semi-supervised approaches on our task over gene expression data. When multi-omic data types are combined together, performance of deep models shows little (if any) improvement in accuracy, indicating the need for further analysis on larger datasets of multi-omic data as and when they become available. From a biological perspective, our linear model mostly confirms known gene-subtype annotations. Conversely, deep approaches model non-linear relationships, which is reflected in a more varied and still unexplored set of representative omic features that may prove useful for breast cancer subtyping.},
   html = {https://doi.org/10.1109/TCBB.2020.3042309},
-  category="1. Computational biology"
+  category="1. Computational biology",
+  code="https://github.com/DEIB-GECO/brca_subtyping"
 }
 
 @article{varrone2020exploring,
@@ -86,7 +89,8 @@
   abstract = {Motivation. The relationship between gene co-expression and chromatin conformation is of great biological interest. Thanks to high-throughput chromosome conformation capture technologies (Hi-C), researchers are gaining insights on the tri-dimensional organization of the genome. Given the high complexity of Hi-C data and the difficult definition of gene co-expression networks, the development of proper computational tools to investigate such relationship is rapidly gaining the interest of researchers. One of the most fascinating questions in this context is how chromatin topology correlates with gene co-expression and which physical interaction patterns are most predictive of co-expression relationships. Results.To address these questions, we developed a computational framework for the prediction of co-expression networks from chromatin conformation data. We first define a gene chromatin interaction network where each gene is associated to its physical interaction profile; then, we apply two graph embedding techniques to extract a low-dimensional vector representation of each gene from the interaction network; finally, we train a classifier on gene embedding pairs to predict if they are co-expressed. Both graph embedding techniques outperform previous methods based on manually designed topological features, highlighting the need for more advanced strategies to encode chromatin information. We also establish that the most recent technique, based on random walks, is superior. Overall, our results demonstrate that chromatin conformation and gene regulation share a non-linear relationship and that gene topological embeddings encode relevant information, which could be used also for downstream analysis. Availability and implementation.
   The source code for the analysis is available at: https://github.com/marcovarrone/gene-expression-chromatin.},
   html = {https://doi.org/10.1093/bioinformatics/btaa803},
-  category="1. Computational biology"
+  category="1. Computational biology",
+  code="https://github.com/marcovarrone/gene-expression-chromatin"
 }
 
 @article{nanni2020spatial,
@@ -101,7 +105,9 @@
   publisher={BioMed Central},
   abstract = {Background. Topologically associating domains (TADs) are genomic regions of self-interaction. Additionally, it is known that TAD boundaries are enriched in CTCF binding sites. In turn, CTCF sites are known to be asymmetric, whereby the convergent configuration of a pair of CTCF sites leads to the formation of a chromatin loop in vivo. However, to date, it has been unclear how to reconcile TAD structure with CTCF-based chromatin loops. Results. We approach this problem by analysing CTCF binding site strengths and classifying clusters of CTCF sites along the genome on the basis of their relative orientation. Analysis of CTCF site orientation classes as a function of their spatial distribution along the human genome reveals that convergent CTCF site clusters are depleted while divergent CTCF clusters are enriched in the 5- to 100-kb range. We then analyse the distribution of CTCF binding sites as a function of TAD boundary conservation across seven primary human blood cell types. This reveals divergent CTCF site enrichment at TAD boundaries. Furthermore, convergent arrays of CTCF sites separate the left and right sections of TADs that harbour internal CTCF sites, resulting in unequal TAD ‘halves’. Conclusions. The orientation-based CTCF binding site cluster classification that we present reconciles TAD boundaries and CTCF site clusters in a mechanistically elegant fashion. This model suggests that the emergent structure of nuclear chromatin in the form of TADs relies on the obligate alternation of divergent and convergent CTCF site clusters that occur at different length scales along the genome.},
   html = {https://doi.org/10.1186/s13059-020-02108-x},
-  category="1. Computational biology"
+  category="1. Computational biology",
+  image="https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs13059-020-02108-x/MediaObjects/13059_2020_2108_Figa_HTML.png?as=webp",
+  code="https://github.com/lucananni93/CTCF_Spatial_Patterns"
 }
 
 @article{nanni2019pygmql,
@@ -116,7 +122,8 @@
   publisher={BioMed Central},
   abstract = {Background. With the growth of available sequenced datasets, analysis of heterogeneous processed data can answer increasingly relevant biological and clinical questions. Scientists are challenged in performing efficient and reproducible data extraction and analysis pipelines over heterogeneously processed datasets. Available software packages are suitable for analyzing experimental files from such datasets one by one, but do not scale to thousands of experiments. Moreover, they lack proper support for metadata manipulation. Results. We present PyGMQL, a novel software for the manipulation of region-based genomic files and their relative metadata, built on top of the GMQL genomic big data management system. PyGMQL provides a set of expressive functions for the manipulation of region data and their metadata that can scale to arbitrary clusters and implicitly apply to thousands of files, producing millions of regions. PyGMQL provides data interoperability, distribution transparency and query outsourcing. The PyGMQL package integrates scalable data extraction over the Apache Spark engine underlying the GMQL implementation with native Python support for interactive data analysis and visualization. It supports data interoperability, solving the impedance mismatch between executing set-oriented queries and programming in Python. PyGMQL provides distribution transparency (the ability to address a remote dataset) and query outsourcing (the ability to assign processing to a remote service) in an orthogonal way. Outsourced processing can address cloud-based installations of the GMQL engine. Conclusions. PyGMQL is an effective and innovative tool for supporting tertiary data extraction and analysis pipelines. We demonstrate the expressiveness and performance of PyGMQL through a sequence of biological data analysis scenarios of increasing complexity, which highlight reproducibility, expressive power and scalability.},
   html = {https://doi.org/10.1186/s12859-019-3159-9},
-  category="2. Bioinformatics"
+  category="2. Bioinformatics",
+  code="https://github.com/DEIB-GECO/PyGMQL"
 }
 
 @inproceedings{cascianelli2019evaluating,
@@ -129,7 +136,8 @@
   organization={Springer},
   abstract = {We investigate the important clinical problem of predicting prognosis-related breast cancer molecular subtypes using whole-transcriptome information present in The Cancer Genome Atlas Project (TCGA) dataset. From a Machine Learning perspective, the data is both high-dimensional with over nineteen thousand features, and extremely small with only about one thousand labeled instances in total. To deal with the dearth of information we compare classical, deep and semi-supervised learning approaches on the subtyping task. Specifically, we compare a L1-regularized Logistic Regression, a 2-hidden layer Feed Forward Neural Network and a Variational Autoencoder based semi-supervised learner that makes use of pan-cancer TCGA data as well as normal breast tissue data from a second source. We find that the classical supervised technique performs at least as well as the deep and semi-supervised learning approaches, although learning curve analysis suggests that insufficient unlabeled data may be being provided for the chosen semi-supervised learning technique to be effective},
   html = {https://doi.org/10.1007/978-3-030-63061-4_21},
-  category="1. Computational biology"
+  category="1. Computational biology",
+  code="https://github.com/DEIB-GECO/brca_subtype"
 }
 
 @article{pinoli2019metadata,
@@ -158,7 +166,9 @@
   publisher={Oxford University Press},
   abstract = {Motivation. We previously proposed a paradigm shift in genomic data management, based on the Genomic Data Model (GDM) for mediating existing data formats and on the GenoMetric Query Language (GMQL) for supporting, at a high level of abstraction, data extraction and the most common data-driven computations required by tertiary data analysis of Next Generation Sequencing datasets. Here, we present a new GMQL-based system with enhanced accessibility, portability, scalability and performance. Results. The new system has a well-designed modular architecture featuring: (i) an intermediate representation supporting many different implementations (including Spark, Flink and SciDB); (ii) a high-level technology-independent repository abstraction, supporting different repository technologies (e.g., local file system, Hadoop File System, database or others); (iii) several system interfaces, including a user-friendly Web-based interface, a Web Service interface, and a programmatic interface for Python language. Biological use case examples, using public ENCODE, Roadmap Epigenomics and TCGA datasets, demonstrate the relevance of our work. Availability and implementation. The GMQL system is freely available for non-commercial use as open source project at: http://www.bioinformatics.deib.polimi.it/GMQLsystem/.},
   html = {https://doi.org/10.1093/bioinformatics/bty688},
-  category="2. Bioinformatics"
+  category="2. Bioinformatics",
+  code="https://github.com/DEIB-GECO/GMQL",
+  website="http://gmql.eu/gmql-rest/"
 }
 
 @article{wang2019extensive,
@@ -198,7 +208,8 @@
   organization={Springer},
   abstract = {Transcription profiling enables researchers to understand the activity of the genes in various experimental conditions; in human genomics, abnormal gene expression is typically correlated with clinical conditions. An important application is the detection of genes which are most involved in the development of tumors, by contrasting normal and tumor cells of the same patient. Several statistical and machine learning techniques have been applied to cancer detection; more recently, deep learning methods have been attempted, but they have typically failed in meeting the same performance as classical algorithms. In this paper, we design a set of deep learning methods that can achieve similar performance as the best machine learning methods thanks to the use of external information or of data augmentation; we demonstrate this result by comparing the performance of new methods against several baselines.},
   html = {https://doi.org/10.1007/978-3-030-34585-3_22},
-  category="1. Computational biology"
+  category="1. Computational biology",
+  code="https://github.com/DEIB-GECO/cancer_classification"
 }
 
 @inproceedings{nanni2018exploring,
@@ -210,7 +221,8 @@
   year={2018},
   abstract = {Genomic data management is focused on achieving high performance over big datasets using batch, cloud-based architectures; this enables the execution of massive pipelines, but hampers the capability of exploring the solution space when it is not well-defined, by choosing different experimental samples or query extraction parameters. We present PyGMQL, a Python-based interoperability software layer that enables testing of experimental pipelines; PyGMQL solves the impedance mismatch between a batch execution environment and the agile programming style of Python, and provides transparency of access when exploration requires integrating local and remote resources. Wrapping PyGMQL and Python primitives within Jupyter notebooks guarantees reproducibility of the pipeline when used in different contexts or by different scientists. The software is freely available at https://github.com/DEIB-GECO/PyGMQL.},
   html = {https://doi.org/10.1145/3214708.3214710},
-  category="2. Bioinformatics"
+  category="2. Bioinformatics",
+  code="https://github.com/DEIB-GECO/PyGMQL"
 }
 
 @inproceedings{ceri2017overview,
@@ -236,5 +248,6 @@
   organization={Springer},
   abstract = {In smart-cities, computer vision has the potential to dramatically improve the quality of life of people suffering of visual impairments. In this field, we have been working on a wearable mobility aid aimed at detecting in real-time obstacles in front of a visually impaired. Our approach relies on a custom RGBD camera, with FPGA on-board processing, worn as traditional eyeglasses and effective point-cloud processing implemented on a compact and lightweight embedded computer. This latter device also provides feedback to the user by means of an haptic interface as well as audio messages. In this paper we address crosswalk recognition that, as pointed out by several visually impaired users involved in the evaluation of our system, is a crucial requirement in the design of an effective mobility aid. Specifically, we propose a reliable methodology to detect and categorize crosswalks by leveraging on point-cloud processing and deep-learning techniques. The experimental results reported, on 10000+ frames, confirm that the proposed approach is invariant to head/camera pose and extremely effective even when dealing with large occlusions typically found in urban environments.},
   html = {https://doi.org/10.1007/978-3-319-23222-5_35},
-  category="3. Machine learning"
+  category="3. Machine learning",
+  code="https://github.com/lucananni93/uniboCV-CNNs"
 }
