@@ -14,7 +14,11 @@
 
 
   <!-- Entry bib key -->
-  <div id="{{entry.key}}" class="col-sm-8">
+  {% if entry.image -%}
+  <div id="{{entry.key}}" class="col-md-7">
+  {%- else %}
+  <div id="{{entry.key}}" class="col-md-9">
+  {%- endif -%}
   {% if entry.type == "thesis" -%}
     {{reference}}
   {%- else %}
@@ -145,9 +149,6 @@
     {% if entry.abstract -%}
     <!-- Hidden abstract block -->
     <div class="abstract hidden">
-      {% if entry.image -%}
-        <img src="{{ entry.image }}" width="100%">
-      {%- endif -%}
       <p>{{ entry.abstract }}</p>
     </div>
     {%- endif -%}
@@ -159,4 +160,9 @@
     </div>
     {%- endif %}
   </div>
+  {% if entry.image -%}
+  <div class="col-md-3">
+    <img src="{{ entry.image }}" width="100%">
+  </div>
+  {%- endif -%}
 </div>

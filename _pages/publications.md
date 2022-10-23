@@ -7,7 +7,5 @@ nav: true
 ---
 
 <div class="publications">
-
-  {% bibliography -f papers %}
-
+    {% bibliography -f papers %}
 </div>
