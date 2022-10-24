@@ -12,7 +12,8 @@
   isbn="978-3-030-85918-3",
   doi="10.1007/978-3-030-85918-3_7",
   html="https://doi.org/10.1007/978-3-030-85918-3_7",
-  category="1. Computational biology"
+  category="1. Computational biology",
+  image = "https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-030-85918-3_7/MediaObjects/517345_1_En_7_Fig2_HTML.png?as=webp"
 }
 
 @inproceedings{10.1145/3473258.3473290,
@@ -28,7 +29,8 @@
   booktitle = {2021 13th International Conference on Bioinformatics and Biomedical Technology},
   pages = {209–216},
   numpages = {8},
-  category="1. Computational biology"
+  category="1. Computational biology",
+  image = "../assets/img/Rouhi_et_al_2021.png"
 }
 
 @article{liu2021systematic,
@@ -44,7 +46,8 @@
   abstract = {Chromatin compartmentalization reflects biological activity. However, inference of chromatin sub-compartments and compartment domains from chromosome conformation capture (Hi-C) experiments is limited by data resolution. As a result, these have been characterized only in a few cell types and systematic comparisons across multiple tissues and conditions are missing. Here, we present Calder, an algorithmic approach that enables the identification of multi-scale sub-compartments at variable data resolution. Calder allows to infer and compare chromatin sub-compartments and compartment domains in >100 cell lines. Our results reveal sub-compartments enriched for poised chromatin states and undergoing spatial repositioning during lineage differentiation and oncogenic transformation.},
   html = {https://doi.org/10.1038/s41467-021-22666-3},
   category="1. Computational biology",
-  code="https://github.com/CSOgroup/CALDER2"
+  code="https://github.com/CSOgroup/CALDER2",
+  image = "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-021-22666-3/MediaObjects/41467_2021_22666_Fig1_HTML.png?as=webp"
 }
 
 @article{canakoglu2021federated,
@@ -60,7 +63,8 @@
   abstract = {Motivation. With the spreading of biological and clinical uses of next-generation sequencing (NGS) data, many laboratories and health organizations are facing the need of sharing NGS data resources and easily accessing and processing comprehensively shared genomic data; in most cases, primary and secondary data management of NGS data is done at sequencing stations, and sharing applies to processed data. Based on the previous single-instance GMQL system architecture, here we review the model, language and architectural extensions that make the GMQL centralized system innovatively open to federated computing. Results. A well-designed extension of a centralized system architecture to support federated data sharing and query processing. Data is federated thanks to simple data sharing instructions. Queries are assigned to execution nodes; they are translated into an intermediate representation, whose computation drives data and processing distributions. The approach allows writing federated applications according to classical styles: centralized, distributed or externalized. Availability. The federated genomic data management system is freely available for non-commercial use as an open source project at http://www.bioinformatics.deib.polimi.it/FederatedGMQLsystem/},
   html = {https://doi.org/10.1093/bib/bbaa091},
   category="2. Bioinformatics",
-  website="http://www.bioinformatics.deib.polimi.it/genomic_computing/FederatedGMQLsystem/index.html"
+  website="http://www.bioinformatics.deib.polimi.it/genomic_computing/FederatedGMQLsystem/index.html",
+  image = "../assets/img/Canakoglu_et_al_2021.png"
 }
 
 @article{cristovao2020investigating,
@@ -73,7 +77,8 @@
   abstract = {Breast Cancer comprises multiple subtypes implicated in prognosis. Existing stratification methods rely on the expression quantification of small gene sets. Next Generation Sequencing promises large amounts of omic data in the next years. In this scenario, we explore the potential of machine learning and, particularly, deep learning for breast cancer subtyping. Due to the paucity of publicly available data, we leverage on pan-cancer and non-cancer data to design semi-supervised settings. We make use of multi-omic data, including microRNA expressions and copy number alterations, and we provide an in-depth investigation of several supervised and semi-supervised architectures. Obtained accuracy results show simpler models to perform at least as well as the deep semi-supervised approaches on our task over gene expression data. When multi-omic data types are combined together, performance of deep models shows little (if any) improvement in accuracy, indicating the need for further analysis on larger datasets of multi-omic data as and when they become available. From a biological perspective, our linear model mostly confirms known gene-subtype annotations. Conversely, deep approaches model non-linear relationships, which is reflected in a more varied and still unexplored set of representative omic features that may prove useful for breast cancer subtyping.},
   html = {https://doi.org/10.1109/TCBB.2020.3042309},
   category="1. Computational biology",
-  code="https://github.com/DEIB-GECO/brca_subtyping"
+  code="https://github.com/DEIB-GECO/brca_subtyping",
+  image = "../assets/img/Cristovao_et_al_2020.png"
 }
 
 @article{varrone2020exploring,
@@ -90,7 +95,8 @@
   The source code for the analysis is available at: https://github.com/marcovarrone/gene-expression-chromatin.},
   html = {https://doi.org/10.1093/bioinformatics/btaa803},
   category="1. Computational biology",
-  code="https://github.com/marcovarrone/gene-expression-chromatin"
+  code="https://github.com/marcovarrone/gene-expression-chromatin",
+  image = "https://github.com/marcovarrone/gene-expression-chromatin/blob/master/pipeline.png?raw=true"
 }
 
 @article{nanni2020spatial,
@@ -123,7 +129,8 @@
   abstract = {Background. With the growth of available sequenced datasets, analysis of heterogeneous processed data can answer increasingly relevant biological and clinical questions. Scientists are challenged in performing efficient and reproducible data extraction and analysis pipelines over heterogeneously processed datasets. Available software packages are suitable for analyzing experimental files from such datasets one by one, but do not scale to thousands of experiments. Moreover, they lack proper support for metadata manipulation. Results. We present PyGMQL, a novel software for the manipulation of region-based genomic files and their relative metadata, built on top of the GMQL genomic big data management system. PyGMQL provides a set of expressive functions for the manipulation of region data and their metadata that can scale to arbitrary clusters and implicitly apply to thousands of files, producing millions of regions. PyGMQL provides data interoperability, distribution transparency and query outsourcing. The PyGMQL package integrates scalable data extraction over the Apache Spark engine underlying the GMQL implementation with native Python support for interactive data analysis and visualization. It supports data interoperability, solving the impedance mismatch between executing set-oriented queries and programming in Python. PyGMQL provides distribution transparency (the ability to address a remote dataset) and query outsourcing (the ability to assign processing to a remote service) in an orthogonal way. Outsourced processing can address cloud-based installations of the GMQL engine. Conclusions. PyGMQL is an effective and innovative tool for supporting tertiary data extraction and analysis pipelines. We demonstrate the expressiveness and performance of PyGMQL through a sequence of biological data analysis scenarios of increasing complexity, which highlight reproducibility, expressive power and scalability.},
   html = {https://doi.org/10.1186/s12859-019-3159-9},
   category="2. Bioinformatics",
-  code="https://github.com/DEIB-GECO/PyGMQL"
+  code="https://github.com/DEIB-GECO/PyGMQL",
+  image = "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12859-019-3159-9/MediaObjects/12859_2019_3159_Fig1_HTML.png?as=webp"
 }
 
 @inproceedings{cascianelli2019evaluating,
@@ -137,7 +144,8 @@
   abstract = {We investigate the important clinical problem of predicting prognosis-related breast cancer molecular subtypes using whole-transcriptome information present in The Cancer Genome Atlas Project (TCGA) dataset. From a Machine Learning perspective, the data is both high-dimensional with over nineteen thousand features, and extremely small with only about one thousand labeled instances in total. To deal with the dearth of information we compare classical, deep and semi-supervised learning approaches on the subtyping task. Specifically, we compare a L1-regularized Logistic Regression, a 2-hidden layer Feed Forward Neural Network and a Variational Autoencoder based semi-supervised learner that makes use of pan-cancer TCGA data as well as normal breast tissue data from a second source. We find that the classical supervised technique performs at least as well as the deep and semi-supervised learning approaches, although learning curve analysis suggests that insufficient unlabeled data may be being provided for the chosen semi-supervised learning technique to be effective},
   html = {https://doi.org/10.1007/978-3-030-63061-4_21},
   category="1. Computational biology",
-  code="https://github.com/DEIB-GECO/brca_subtype"
+  code="https://github.com/DEIB-GECO/brca_subtype",
+  image = "https://media.springernature.com/m312/springer-static/image/chp%3A10.1007%2F978-3-030-63061-4_21/MediaObjects/495715_1_En_21_Fig2_HTML.png?as=webp"
 }
 
 @article{pinoli2019metadata,
@@ -151,7 +159,8 @@
   publisher={Elsevier},
   abstract = {Most scientific databases consist of datasets (or sources) which in turn include samples (or files) with an identical structure (or schema). In many cases, samples are associated with rich metadata, describing the process that leads to building them (e.g.: the experimental conditions used during sample generation). Metadata are typically used in scientific computations just for the initial data selection; at most, metadata about query results is recovered after executing the query, and associated with its results by post-processing. In this way, a large body of information that could be relevant for interpreting query results goes unused during query processing. In this paper, we present ScQL, a new algebraic relational language, whose operations apply to objects consisting of data–metadatapairs, by preserving such one-to-one correspondence throughout the computation. We formally define each operation and we describe an optimization, called meta-first, that may significantly reduce the query processing overhead by anticipating the use of metadata for selectively loading into the execution environment only those input samples that contribute to the result samples. In ScQL, metadata have the same relevance as data, and contribute to building query results; in this way, the resulting samples are systematically associated with metadata about either the specific input samples involved or about query processing, thereby yielding a new form of metadata provenance. We present many examples of use of ScQL, relative to several application domains, and we demonstrate the effectiveness of the meta-first optimization.},
   html = {https://doi.org/10.1016/j.is.2018.10.002},
-  category="4. Computer science"
+  category="4. Computer science",
+  image = "https://ars.els-cdn.com/content/image/1-s2.0-S0306437917306385-gr13_lrg.jpg"
 }
 
 @article{masseroli2019processing,
@@ -168,7 +177,8 @@
   html = {https://doi.org/10.1093/bioinformatics/bty688},
   category="2. Bioinformatics",
   code="https://github.com/DEIB-GECO/GMQL",
-  website="http://gmql.eu/gmql-rest/"
+  website="http://gmql.eu/gmql-rest/",
+  image = "../assets/img/Masseroli_et_al_2018.jpeg"
 }
 
 @article{wang2019extensive,
@@ -183,7 +193,8 @@
   publisher={Nature Publishing Group},
   abstract = {Glucocorticoid receptor is a transcription factor that is ubiquitously expressed. Glucocorticoids are circadian steroids that regulate a wide range of bodily functions, including immunity. Here we report that synthetic glucocorticoids affect 1035 mRNAs in isolated healthy human blood monocytes but only 165 in the respective six day-old monocyte-derived macrophages. The majority of the glucocorticoid response in monocytes concerns genes that are dynamic upon monocyte to macrophage differentiation, whereby macrophage-like mRNA levels are often reached in monocytes within four hours of treatment. Concomitantly, over 5000 chromosomal H3K27ac regions undergo remodelling, of which 60% involve increased H3K27ac signal. We find that chromosomal glucocorticoid receptor binding sites correlate with positive but not with negative local epigenomic effects. To investigate further we assigned our data to topologically associating domains (TADs). This shows that about 10% of macrophage TADs harbour at least one GR binding site and that half of all the glucocorticoid-induced H3K27ac regions are confined to these TADs. Our analyses are therefore consistent with the notion that TADs naturally accommodate information from sets of distal glucocorticoid response elements.},
   html = {https://doi.org/10.1038/s41598-019-39395-9},
-  category="1. Computational biology"
+  category="1. Computational biology",
+  image = "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-019-39395-9/MediaObjects/41598_2019_39395_Fig6_HTML.png?as=webp"
 }
 
 @inproceedings{ceri2018demonstration,
@@ -195,7 +206,8 @@
   year={2018},
   abstract = {In the last ten years, genomic computing has made gigantic steps due to Next Generation Sequencing (NGS), a high-throughput, massively parallel technology; the cost of producing a complete human sequence dropped to 1000 US$ in 2015 and is expected to drop below 100 US$ by 2020. Several new methods have recently become available for extracting heterogeneous datasets from the genome, revealing data signals such as variations from a reference sequence, levels of expression of coding regions, or protein binding enrichments ('peaks') with their statistical or geometric properties. Huge collections of such datasets are made available by large international consortia. In this new context, we developed GenoMetric Query Language (GMQL), a new data extraction and integration language. GMQL supports queries over thousands of heterogeneous datasets; as such, it is key to genomic data analysis. GMQL queries are executed on the cloud, after being translated and optimized; our best deployment uses Spark over Hadoop. Datasets are described by the Genomic Data Model (GDM), which provides interoperability between many data formats; GDM combines abstractions for genomic region data with the associated experimental, biological and clinical metadata. GMQL is targeted to the bio-informatics community for facilitating data exploration and for integrating data extraction and data analysis; this demonstration highlights its usability and expressive power. We show GMQL at work from a Web-based user interface and from a language embedding (Python).},
   html = {https://doi.org/10.1145/3269206.3269217},
-  category="2. Bioinformatics"
+  category="2. Bioinformatics",
+  image = "../assets/img/Ceri_et_al_2018.jpeg"
 }
 
 @inproceedings{canakoglu2018designing,
@@ -209,7 +221,8 @@
   abstract = {Transcription profiling enables researchers to understand the activity of the genes in various experimental conditions; in human genomics, abnormal gene expression is typically correlated with clinical conditions. An important application is the detection of genes which are most involved in the development of tumors, by contrasting normal and tumor cells of the same patient. Several statistical and machine learning techniques have been applied to cancer detection; more recently, deep learning methods have been attempted, but they have typically failed in meeting the same performance as classical algorithms. In this paper, we design a set of deep learning methods that can achieve similar performance as the best machine learning methods thanks to the use of external information or of data augmentation; we demonstrate this result by comparing the performance of new methods against several baselines.},
   html = {https://doi.org/10.1007/978-3-030-34585-3_22},
   category="1. Computational biology",
-  code="https://github.com/DEIB-GECO/cancer_classification"
+  code="https://github.com/DEIB-GECO/cancer_classification",
+  image = "https://media.springernature.com/m312/springer-static/image/chp%3A10.1007%2F978-3-030-34585-3_22/MediaObjects/482316_1_En_22_Fig3_HTML.png?as=webp"
 }
 
 @inproceedings{nanni2018exploring,
@@ -222,7 +235,8 @@
   abstract = {Genomic data management is focused on achieving high performance over big datasets using batch, cloud-based architectures; this enables the execution of massive pipelines, but hampers the capability of exploring the solution space when it is not well-defined, by choosing different experimental samples or query extraction parameters. We present PyGMQL, a Python-based interoperability software layer that enables testing of experimental pipelines; PyGMQL solves the impedance mismatch between a batch execution environment and the agile programming style of Python, and provides transparency of access when exploration requires integrating local and remote resources. Wrapping PyGMQL and Python primitives within Jupyter notebooks guarantees reproducibility of the pipeline when used in different contexts or by different scientists. The software is freely available at https://github.com/DEIB-GECO/PyGMQL.},
   html = {https://doi.org/10.1145/3214708.3214710},
   category="2. Bioinformatics",
-  code="https://github.com/DEIB-GECO/PyGMQL"
+  code="https://github.com/DEIB-GECO/PyGMQL",
+  image = "../assets/img/Nanni_et_al_2018.png"
 }
 
 @inproceedings{ceri2017overview,
@@ -235,7 +249,8 @@
   organization={Springer},
   abstract = {Next Generation Sequencing is a 10-year old technology for reading the DNA, capable of producing massive amounts of genomic data - in turn, reshaping genomic computing. In particular, tertiary data analysis is concerned with the integration of heterogeneous regions of the genome; this is an emerging and increasingly important problem of genomic computing, because regions carry important signals and the creation of new biological or clinical knowledge requires the integration of these signals into meaningful messages. We specifically focus on how the GeCo project is contributing to tertiary data analysis, by overviewing the main results of the project so far and by describing its future scenarios.},
   html = {https://doi.org/10.1007/978-3-319-96553-6_4},
-  category="2. Bioinformatics"
+  category="2. Bioinformatics",
+  image = "http://www.bioinformatics.deib.polimi.it/geco/imgs/tertiary.jpg"
 }
 
 @inproceedings{poggi2015crosswalk,
@@ -249,5 +264,6 @@
   abstract = {In smart-cities, computer vision has the potential to dramatically improve the quality of life of people suffering of visual impairments. In this field, we have been working on a wearable mobility aid aimed at detecting in real-time obstacles in front of a visually impaired. Our approach relies on a custom RGBD camera, with FPGA on-board processing, worn as traditional eyeglasses and effective point-cloud processing implemented on a compact and lightweight embedded computer. This latter device also provides feedback to the user by means of an haptic interface as well as audio messages. In this paper we address crosswalk recognition that, as pointed out by several visually impaired users involved in the evaluation of our system, is a crucial requirement in the design of an effective mobility aid. Specifically, we propose a reliable methodology to detect and categorize crosswalks by leveraging on point-cloud processing and deep-learning techniques. The experimental results reported, on 10000+ frames, confirm that the proposed approach is invariant to head/camera pose and extremely effective even when dealing with large occlusions typically found in urban environments.},
   html = {https://doi.org/10.1007/978-3-319-23222-5_35},
   category="3. Machine learning",
-  code="https://github.com/lucananni93/uniboCV-CNNs"
+  code="https://github.com/lucananni93/uniboCV-CNNs",
+  image = "../assets/img/Poggi_et_al_2015.png"
 }
